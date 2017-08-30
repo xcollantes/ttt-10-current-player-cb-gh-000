@@ -8,7 +8,10 @@ def turn_count(board)
   return count
 end
 
-def 
+def current_player(board)
+  count = turn_count(board)
+  if odd?(count) then "O" else "X" end
+end
 
 def odd?(turn)
   if turn % 2 != 0 then true else false end
