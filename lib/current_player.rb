@@ -7,5 +7,11 @@ def turn_count(board)
 
   return count
 end
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-puts turn_count(board)
+
+def odd?(turn)
+  if turn % 2 != 0 then true else false end
+end
+
+def even?(turn)
+  if turn % 2 == 0 then true else false end
+end
