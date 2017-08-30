@@ -8,6 +8,8 @@ def turn_count(board)
   return count
 end
 
+def 
+
 def odd?(turn)
   if turn % 2 != 0 then true else false end
 end
