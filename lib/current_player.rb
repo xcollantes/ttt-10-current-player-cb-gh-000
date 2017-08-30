@@ -4,4 +4,6 @@ def turn_count(board)
   board.each do |element|
     if element == '' || element == ' ' then count += 1 else continue end
   end
+
+  return count
 end
